@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 
@@ -8,7 +9,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3001/graphql'
+  uri: '/graphql'
 });
 
 function App() {
